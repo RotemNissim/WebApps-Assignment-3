@@ -1,0 +1,16 @@
+.square {
+    width: 80px;
+    height: 80px;
+    background-color: #d6ccc2;
+    border: 5px solid #edede9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .square img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
