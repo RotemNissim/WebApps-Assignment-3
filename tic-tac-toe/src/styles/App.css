@@ -12,7 +12,7 @@ body {
   align-items: center;
   height: 100vh; /* Full viewport height */
   margin: 0;
-  background-color: #181C14; /* White background */
+  background-color: #DBAFA0; /* White background */
   flex-direction: column; /* Stack items vertically */
   text-align: center; /* Center text */
   
@@ -21,15 +21,17 @@ body {
 /* Game board styling */
 .board {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(3,100px);
+  grid-template-columns: repeat(3, 85px);
+  grid-template-rows: repeat(3,85px);
   justify-items: center;
   justify-content: center;
   margin: auto; 
-  border: 1px solid black;
-  border-radius: 1px;
+  border: 1px solid #e3d5ca;
+  background-color: #e3d5ca;
+  border-radius: 5px;
   box-sizing: border-box;
   align-items: center;
+
 }
 
 /* Square button styling */
@@ -39,6 +41,7 @@ body {
   background-color: #e3d5ca;
   border: 3px solid #ffe5ec;
   display: flex;
+  border-radius: 2px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
